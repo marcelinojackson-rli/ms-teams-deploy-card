@@ -51,11 +51,11 @@ export function formatCompleteLayout(
     commit.data.html_url
   );
 
-  // Set status and elapsedSeconds
-  let labels = `\`${conclusion.toUpperCase()}\``;
-  if (elapsedSeconds) {
-    labels = `\`${conclusion.toUpperCase()} [${elapsedSeconds}s]\``;
-  }
+//   // Set status and elapsedSeconds
+//   let labels = `\`${conclusion.toUpperCase()}\``;
+//   if (elapsedSeconds) {
+//     labels = `\`${conclusion.toUpperCase()} [${elapsedSeconds}s]\``;
+//   }
 
   // Set section facts
   section.facts = [
