@@ -64,7 +64,6 @@ export function formatCompleteLayout(
       "`" + process.env.GITHUB_EVENT_NAME?.toUpperCase() + "`"
     ),
     //new Fact("Status:", labels),
-    new Fact("Status:", "SUCCESS"),
     new Fact(
       "Commit message:",
       escapeMarkdownTokens(commit.data.commit.message)
