@@ -19,7 +19,7 @@ inputs:
   timezone:
     description: Timezone for notification
     required: false
-    default: UTC
+    default: CST
   card-layout-start:
     description: Card layout on start (i.e. "complete", "cozy", "compact")
     required: false
