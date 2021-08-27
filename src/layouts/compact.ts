@@ -27,7 +27,7 @@ export function formatCompactLayout(
   }
 
   // Set themeColor
-  webhookBody.themeColor = CONCLUSION_THEMES[conclusion] || "957DAD";
+  webhookBody.themeColor = CONCLUSION_THEMES[conclusion] || "90C978";
 
   webhookBody.text =
     `${labels} &nbsp; CI [#${process.env.GITHUB_RUN_NUMBER}](${runLink}) ` +

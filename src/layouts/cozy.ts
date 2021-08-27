@@ -36,7 +36,7 @@ export function formatCozyLayout(
   }
 
   // Set themeColor
-  webhookBody.themeColor = CONCLUSION_THEMES[conclusion] || "957DAD";
+  webhookBody.themeColor = CONCLUSION_THEMES[conclusion] || "90C978";
 
   // Get potential actions
   const actions = renderActions(
