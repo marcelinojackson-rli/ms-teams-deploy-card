@@ -2,10 +2,10 @@ export const CONCLUSION_THEMES: any = {
   neutral: "90C978",
   success: "90C978",
   skipped: "90C978",
+  in_progress: "C23B23",  
   cancelled: "C23B23",
   timed_out: "C23B23",
   failure: "C23B23",
-  in_progress: "C23B23",
   action_required: "C23B23",
 };
 
