@@ -82,6 +82,13 @@ export function formatCompleteLayout(
           if (fact.name !== undefined && fact.value !== undefined) {
             section.facts?.push(new Fact(fact.name + ":", fact.value));
             customFactsCounter++;
+            if (fact.value == "FAILED") {
+              webhookBody.themeColor = "C23B23"              
+            }
+            else
+            {
+              webhookBody.themeColor = "90C978"   
+            }       
           }
         });
       }
@@ -90,6 +97,10 @@ export function formatCompleteLayout(
       warning("Invalid custom-facts value.");
     }
   }
+
+  
+  
+
 
   // Set environment name
   const environment = getInput("environment");
