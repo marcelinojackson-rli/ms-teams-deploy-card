@@ -84,11 +84,7 @@ export function formatCompleteLayout(
             customFactsCounter++;
             if (fact.value == "FAILED") {
               webhookBody.themeColor = "C23B23"              
-            }
-            else
-            {
-              webhookBody.themeColor = "90C978"   
-            }       
+            }    
           }
         });
       }
