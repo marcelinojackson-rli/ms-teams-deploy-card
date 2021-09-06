@@ -30,9 +30,9 @@ export function formatCompactLayout(
   webhookBody.themeColor = CONCLUSION_THEMES[conclusion] || "90C978";
 
   webhookBody.text =
-    `${labels} &nbsp; CI [#${process.env.GITHUB_RUN_NUMBER}](${runLink}) ` +
+    `${labels} &nbsp; CICD [#${process.env.GITHUB_RUN_NUMBER}](${runLink}) ` +
     //`(commit [${shortSha}](${commit.data.html_url})) on [${process.env.GITHUB_REPOSITORY}](${repoUrl}) ` +
-    `(commit [${shortSha}](${commit.data.html_url})) ` +
+    //`(commit [${shortSha}](${commit.data.html_url})) ` +
     `by [@${author.login}](${author.html_url})`;
 
   return webhookBody;
