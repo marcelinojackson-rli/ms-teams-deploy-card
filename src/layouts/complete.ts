@@ -64,11 +64,11 @@ export function formatCompleteLayout(
       "`" + process.env.GITHUB_EVENT_NAME?.toUpperCase() + "`"
     ),
     //new Fact("CONCLUSION:", conclusion.toUpperCase()),
-    new Fact(
-      "Commit message:",
-      escapeMarkdownTokens(commit.data.commit.message)
-    ),
-    new Fact("Repository & branch:", `[${branchUrl}](${branchUrl})`),
+    // new Fact(
+    //   "Commit message:",
+    //   escapeMarkdownTokens(commit.data.commit.message)
+    // ),
+    //new Fact("Repository & branch:", `[${branchUrl}](${branchUrl})`),
   ];
 
   // Set custom facts
