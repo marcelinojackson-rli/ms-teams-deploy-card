@@ -52,7 +52,7 @@ export function formatCozyLayout(
   webhookBody.sections = [
     {
       //activityTitle: `**CI #${process.env.GITHUB_RUN_NUMBER} (commit ${shortSha})** on [${process.env.GITHUB_REPOSITORY}](${repoUrl})`,
-      activityTitle: `Continous Integration and Continous Delivery #${process.env.GITHUB_RUN_NUMBER}`,      
+      activityTitle: `Continuous Integration and Continuous Delivery #${process.env.GITHUB_RUN_NUMBER}`,      
       activityImage: author?.avatar_url || OCTOCAT_LOGO_URL,
       activitySubtitle: author
         ? `by [@${author.login}](${author.html_url}) on ${nowFmt}`
